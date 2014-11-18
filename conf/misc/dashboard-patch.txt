@@ -1,0 +1,11 @@
+--- dashboard.js	2014-11-18 05:20:19.805573703 +0000
++++ dashboard.js.new	2014-11-18 05:19:53.796399094 +0000
+@@ -23,7 +23,7 @@
+   path: "/dashboard"
+ });
+ 
+-var NAV_BAR_REGION = cookieProvider.get('navbar-region') || 'north';
++var NAV_BAR_REGION = cookieProvider.get('navbar-region') || 'west';
+ 
+ var CONFIRM_REMOVE_ALL = cookieProvider.get('confirm-remove-all') != 'false';
+ 
